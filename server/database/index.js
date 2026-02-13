@@ -168,6 +168,22 @@ async function initializeDatabase() {
       console.log('✅ Admin permissions migrated');
     }
 
+    // Default Cashier
+    const cashierExists = await db.users.findOne({ username: 'cashier' });
+    if (!cashierExists) {
+      const cashierHash = await bcrypt.hash('123456', 10);
+      await db.users.insert({
+        username: 'cashier',
+        password: cashierHash,
+        name: 'كاشير 1',
+        role: 'cashier',
+        permissions: ROLE_PERMISSIONS.cashier,
+        isActive: true,
+        createdAt: new Date(),
+      });
+      console.log('✅ Default cashier user created');
+    }
+
     // Migrate all existing users to new permissions format
     const allUsers = await db.users.find({});
     for (const user of allUsers) {
