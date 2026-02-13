@@ -1,0 +1,146 @@
+.audit-page { padding: 0; }
+
+.audit-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.stat-card.mini {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 20px;
+}
+
+.audit-filters {
+    margin-bottom: 20px;
+    padding: 16px;
+}
+
+.filter-row {
+    display: flex;
+    gap: 16px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    min-width: 160px;
+}
+
+.filter-item label {
+    font-size: 12px;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.audit-logs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.audit-log-item {
+    display: flex;
+    gap: 14px;
+    padding: 14px 18px;
+    background: var(--card-bg);
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    transition: all 0.2s;
+}
+
+.audit-log-item:hover {
+    border-color: var(--primary);
+    transform: translateX(4px);
+}
+
+.log-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+}
+
+.log-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.log-action {
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.log-meta {
+    display: flex;
+    gap: 16px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    flex-wrap: wrap;
+}
+
+.log-user {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.log-module {
+    font-weight: 600;
+}
+
+.log-details {
+    margin-top: 6px;
+    font-size: 12px;
+    color: var(--text-secondary);
+    background: var(--bg-primary);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    direction: ltr;
+    text-align: left;
+    word-break: break-all;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+.page-info {
+    color: var(--text-secondary);
+    font-size: 14px;
+}
+
+.empty-state {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 60px 20px;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+    .audit-stats { grid-template-columns: 1fr; }
+    .filter-row { flex-direction: column; }
+    .filter-item { min-width: 100%; }
+}
