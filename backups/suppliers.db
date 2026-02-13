@@ -1,0 +1,5 @@
+{"name":"شركة الألبان المتحدة","phone":"0266778899","email":"dairy@supplier.com","address":"الإسكندرية","createdAt":{"$$date":1770610682024},"_id":"9F2otCcPV6p4sAyQ"}
+{"name":"شركة اللحوم المصرية","phone":"0244556677","email":"meat@supplier.com","address":"مدينة بدر","createdAt":{"$$date":1770610682023},"_id":"JhNnxEqqZEgbJ4Kf"}
+{"name":"مخبوزات الفيروز","phone":"0255667788","email":"bakery@supplier.com","address":"شبرا الخيمة","createdAt":{"$$date":1770610682024},"_id":"PPYijTnlATmeOLn1"}
+{"name":"مصنع المشروبات الوطني","phone":"0233445566","email":"drinks@supplier.com","address":"العاشر من رمضان","createdAt":{"$$date":1770610682023},"_id":"yRGZ6kBuRjAQDnuN"}
+{"name":"شركة الطازج للتوريدات","phone":"0227654321","email":"fresh@supplier.com","address":"المنطقة الصناعية، 6 أكتوبر","createdAt":{"$$date":1770610682022},"_id":"zIMx0I9EcSOR7Oni"}

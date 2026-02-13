@@ -1,0 +1,8 @@
+{"name":"مقبلات","icon":"🍟","color":"#f59e0b","order":4,"createdAt":{"$$date":1770610681990},"_id":"22urskKTTq4o312a"}
+{"name":"بيتزا","icon":"🍕","color":"#dc2626","order":7,"createdAt":{"$$date":1770610681992},"_id":"7avzGFuoNmTakIbN"}
+{"name":"حلويات","icon":"🍰","color":"#ec4899","order":5,"createdAt":{"$$date":1770610681990},"_id":"FqxHagujCXXUnsz9"}
+{"name":"عصائر","icon":"🧃","color":"#f97316","order":8,"createdAt":{"$$date":1770610681993},"_id":"X0gZuePV5Ch6z31v"}
+{"name":"مشروبات ساخنة","icon":"☕","color":"#8b5cf6","order":1,"createdAt":{"$$date":1770610681987},"_id":"Z0DI3LHMH39n30tc"}
+{"name":"مشروبات باردة","icon":"🥤","color":"#3b82f6","order":2,"createdAt":{"$$date":1770610681988},"_id":"aHP9jZbfmEuNAtaQ"}
+{"name":"سندويتشات","icon":"🥪","color":"#22c55e","order":6,"createdAt":{"$$date":1770610681991},"_id":"xIIDJ5riX7NL6ydd"}
+{"name":"وجبات رئيسية","icon":"🍔","color":"#ef4444","order":3,"createdAt":{"$$date":1770610681989},"_id":"xZ7zWP7gHUnIbZWk"}

@@ -1,0 +1,10 @@
+{"title":"مواصلات توصيل","amount":600,"category":"transport","date":"2026-02-03","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1770092282088},"_id":"3Y07l5rTWKYMQSIF"}
+{"title":"صيانة المعدات","amount":800,"category":"maintenance","date":"2026-02-06","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1770351482087},"_id":"OJBLNwhTIToHO4lZ"}
+{"title":"فاتورة الإنترنت","amount":400,"category":"utilities","date":"2026-02-03","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1770092282089},"_id":"RI9iH3vW6iU2w08t"}
+{"title":"فاتورة الكهرباء","amount":1200,"category":"utilities","date":"2026-02-09","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1770610682085},"_id":"SUoaDIYOAioKQUOu"}
+{"title":"راتب موظف 2","amount":4000,"category":"salaries","date":"2026-01-19","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1768796282087},"_id":"U1ZNwi7tJlMlnurc"}
+{"title":"إيجار المحل - يناير","amount":8000,"category":"rent","date":"2026-01-26","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1769401082085},"_id":"bggpPpHCljGxOEwn"}
+{"title":"مستلزمات تنظيف","amount":250,"category":"other","date":"2026-01-18","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1768709882088},"_id":"clKGa6ZJAoSxEuPV"}
+{"title":"راتب موظف 1","amount":4500,"category":"salaries","date":"2026-01-14","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1768364282086},"_id":"dqST2WekweD38Wnx"}
+{"title":"فاتورة المياه","amount":350,"category":"utilities","date":"2026-01-19","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1768796282086},"_id":"xdedx3LzeJaG0nvr"}
+{"title":"إعلانات فيسبوك","amount":500,"category":"marketing","date":"2026-01-26","userId":"3ZRFJJxvd49Z9GV0","userName":"أحمد المدير","createdAt":{"$$date":1769401082088},"_id":"yXjrkA5NVWn3WSQx"}
